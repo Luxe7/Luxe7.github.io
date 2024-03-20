@@ -1,5 +1,5 @@
 +++
-author = "Luxe7"
+author = "Hugo Authors"
 +++
 
 Home Index Content

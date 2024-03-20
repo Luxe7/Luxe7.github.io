@@ -2,13 +2,14 @@ baseURL = 'https://luxe7.github.io'
 # languageCode = 'en-us'
 languageCode = 'zh'
 title = "Luxe7's Blog"
+# theme = "puppet"
 theme = "puppet"
 
 
 copyright = "Luxe7"
-paginate = 3
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
+paginate = 7
+defaultContentLanguage = "ch"
+# defaultContentLanguageInSubdir = true
 
 hasCJKLanguage = true
 enableInlineShortcodes = true
@@ -49,7 +50,7 @@ weight = -100
 [[menu.main]]
 identifier = "archive"
 name = "Archive"
-url = "archive/"
+url = "https://luxe7.github.io/archive/"
 weight = 10
 # [[menu.main]]
 # identifier = "guide"
@@ -59,7 +60,7 @@ weight = 10
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "about/"
+url = "https://luxe7.github.io/about/"
 weight = 50
 # [[menu.main]]
 # identifier = "github"
