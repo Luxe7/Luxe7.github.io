@@ -73,7 +73,7 @@ weight = 50
 author = "Luxe7"
 description = "你好呀"
 keywords = "blog,developer,personal"
-img_home = "img/18.jpg"
+img_home = "img/18.png"
 img_404 = "img/404-bg.jpg"
 
 useFaviconGenerator = true

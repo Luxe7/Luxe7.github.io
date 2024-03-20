@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/Administrator/Luxe7",
+	"sourceRoot": "C:/Users/fathe/Luxe7",
 	"sources": [
 		"themes/puppet/assets/sass/main.scss",
 		"themes/puppet/assets/sass/_variables.scss",
