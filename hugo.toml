@@ -1,4 +1,4 @@
-baseURL = 'https://luxe7.github.io/'
+baseURL = 'https://luxe7.github.io'
 # languageCode = 'en-us'
 languageCode = 'zh'
 title = "Luxe7's Blog"
@@ -84,7 +84,7 @@ custom_css = [] # ["css/custom.css"]  Add your file to assets folder  [assets/cs
 enable = true
 # gravatarEmail = ""
 # Overwritten by your gravatar image if `gravatarEmail` is filled
-avatar = "img/2.jpg"
+avatar = "img/avatar.jpg"
 bio = "喜欢吃水蜜桃和橘子科学、自由和理想主义"
 
 [params.social]
