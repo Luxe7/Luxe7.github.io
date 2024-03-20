@@ -49,7 +49,7 @@ weight = -100
 [[menu.main]]
 identifier = "archive"
 name = "Archive"
-url = "/archive/"
+url = "archive/"
 weight = 10
 # [[menu.main]]
 # identifier = "guide"
@@ -59,7 +59,7 @@ weight = 10
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "/about/"
+url = "about/"
 weight = 50
 # [[menu.main]]
 # identifier = "github"
