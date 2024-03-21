@@ -1,4 +1,4 @@
-baseURL = 'https://luxe7.github.io'
+baseURL = 'https://luxe7.icu'
 # languageCode = 'en-us'
 languageCode = 'zh'
 title = "Luxe7's Blog"
@@ -50,7 +50,7 @@ weight = -100
 [[menu.main]]
 identifier = "archive"
 name = "Archive"
-url = "https://luxe7.github.io/archive/"
+url = "/archive/"
 weight = 10
 # [[menu.main]]
 # identifier = "guide"
@@ -60,7 +60,7 @@ weight = 10
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "https://luxe7.github.io/about/"
+url = "/about/"
 weight = 50
 # [[menu.main]]
 # identifier = "github"
