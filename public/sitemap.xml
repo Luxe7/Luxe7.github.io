@@ -3,76 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://luxe7.icu/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/documentation/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/guide/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/posts/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/posts/getting-started/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/series/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/series/themes-guide/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/categories/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/css/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/html/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/markdown/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/posts/markdown-syntax/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/categories/syntax/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/categories/themes/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/posts/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/posts/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://luxe7.icu/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://luxe7.icu/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <loc>https://luxe7.icu/archive/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://luxe7.icu/posts/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <loc>https://luxe7.icu/archive/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://luxe7.icu/about/</loc>
   </url><url>
-    <loc>https://luxe7.icu/archive/</loc>
+    <loc>https://luxe7.icu/categories/</loc>
+  </url><url>
+    <loc>https://luxe7.icu/posts/</loc>
+  </url><url>
+    <loc>https://luxe7.icu/series/</loc>
+  </url><url>
+    <loc>https://luxe7.icu/tags/</loc>
   </url>
 </urlset>

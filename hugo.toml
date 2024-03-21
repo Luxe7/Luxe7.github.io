@@ -72,7 +72,7 @@ weight = 50
 author = "Luxe7"
 description = "凌晨四点钟，我看见海棠花未眠，总觉得这时，你应该在我身边"
 keywords = "blog,developer,personal"
-img_home = "img/18.png"
+img_home = "img/home.png"
 img_404 = "img/404-bg.jpg"
 
 useFaviconGenerator = true

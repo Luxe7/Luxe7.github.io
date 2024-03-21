@@ -1,6 +1,6 @@
 ---
 title: Archive
-description: archive archive archive
-header_img: /img/19.png
-short: true
+description: Write down what need to be recorded
+header_img: /img/archive.png
+short: false
 ---

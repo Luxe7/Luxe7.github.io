@@ -1,0 +1,14 @@
+{
+  "location": "shanghai",
+  "key": "e51e58f60079c457c401ee658f547b2b",
+  "units": "metric",
+  "language": "en",
+  "excludeFolder": "",
+  "weatherFormat1": "%desc% • Current Temp: %temp%°C • Feels Like: %feels%°C\n",
+  "weatherFormat2": "%name%: %dateMonth4% %dateDay2% - %timeH2%:%timeM% %ampm1%\nCurrent Temp: %temp%°C • Feels Like: %feels%°C\nWind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^\nSunrise: %sunrise% • Sunset: %sunset%\n",
+  "weatherFormat3": "%icon%&nbsp;%dateMonth4% %dateDay2% %dateYear1% • %timeH2%:%timeM% %ampm1% • %desc%<br>&nbsp;Recorded Temp: %temp% • Felt like: %feels%<br>&nbsp;Wind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^<br>&nbsp;Sunrise: %sunrise% • Sunset: %sunset%",
+  "weatherFormat4": "%icon%&nbsp;%dateMonth4% %dateDay2% %dateYear1% • %timeH2%:%timeM% %ampm1% • %desc%<br>&nbsp;Current Temp: %temp% • Feels like: %feels%<br>&nbsp;Wind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^<br>&nbsp;Sunrise: %sunrise% • Sunset: %sunset%",
+  "statusbarActive": true,
+  "weatherFormatSB": "天气: %desc% %desc-em% | 温度: %temp%°C  |  日落: %sunset%\n",
+  "statusbarUpdateFreq": "15"
+}
