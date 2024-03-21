@@ -1,8 +1,7 @@
 baseURL = 'https://luxe7.icu'
 # languageCode = 'en-us'
-languageCode = 'zh'
+languageCode = 'ch'
 title = "Luxe7's Blog"
-# theme = "puppet"
 theme = "puppet"
 
 
