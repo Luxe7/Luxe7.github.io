@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "75aaaeca80d57ea8",
+        "id": "c88a015f35f8d712",
         "type": "tabs",
         "children": [
           {
-            "id": "dd0919af93c7254b",
+            "id": "a2247ba1b8db4b1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,7 +188,7 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "dd0919af93c7254b",
+  "active": "a2247ba1b8db4b1f",
   "lastOpenFiles": [
     "content/posts/NewBlog1.md",
     "Template/draft.md",
