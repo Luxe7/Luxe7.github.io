@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Luxe7&#39;s Blog</title>
+    <link>https://luxe7.icu/tags/git/</link>
+    <description>Recent content in Git on Luxe7&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch</language>
+    <copyright>©2021-2024 Luxe7. All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://luxe7.icu/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在一台电脑上使用两个Github账号</title>
+      <link>https://luxe7.icu/posts/%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://luxe7.icu/posts/%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7/</guid>
+      <description>原因很简单，两个账号的用途不一样，不想让两个账号的TimeLine互相污染 理论上来说可以每次手动删除本地的SSH信息，然后切换账号，但这样做</description>
+    </item>
+  </channel>
+</rss>
