@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "afb5a961c3d7fc95",
+        "id": "15e956e27ba08956",
         "type": "tabs",
         "children": [
           {
-            "id": "b50ef4f425ab2569",
+            "id": "ea9e5ae0c63db2b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md"
+                "file": "Home.md"
               }
             }
           }
@@ -188,15 +188,16 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "b50ef4f425ab2569",
+  "active": "ea9e5ae0c63db2b1",
   "lastOpenFiles": [
+    "Home.md",
+    "content/archive/math-typesetting.md",
     "content/posts/_index.md",
     "content/archive/_index.md",
     "archetypes/default.md",
     "content/about/_index.md",
     "content/_index.md",
     "content/posts/如何在一台电脑上使用两个Github账号.md",
-    "content/archive/math-typesetting.md",
     "public/posts/如何在一台电脑上使用两个github账号/index.html",
     "public/posts/如何在一台电脑上使用两个github账号",
     "public/tags/git/index.xml",
@@ -207,7 +208,6 @@
     "public/tags/ssh",
     "public/sass/main.css.map",
     "Template/draft.md",
-    "Home.md",
     "content/posts/NewBlog1.md",
     "public/posts/newblog1/index.html",
     "content/posts/hello.md",

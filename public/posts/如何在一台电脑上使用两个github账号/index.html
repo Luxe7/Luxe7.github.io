@@ -203,10 +203,10 @@
 <h2 id="原理">原理<a class="anchorjs-link" href="#%e5%8e%9f%e7%90%86"></a></h2><p>我一开始的打算是生成两个SSH密钥，然后手动配置不同repo中的账户信息，但实际上Github只会默认找到一个固定的SSH进行连接</p>
 <p>SSH密钥决定了用户是否有权限访问一个GitHub账号下的repo，本地repo的设置决定了GitHub中commit记录的用户，Github只连接一个固定的SSH决定了我们在正常情况下只能用一个账号</p>
 <p>所以问题的核心在于，<strong>如何让GitHub基于某种条件，连接不同的SSH，而这个条件对于我们来说是可控的</strong></p>
-<h2 id="实际操作">实际操作<a class="anchorjs-link" href="#%e5%ae%9e%e9%99%85%e6%93%8d%e4%bd%9c"></a></h2><h3 id="生成密钥">生成密钥<a class="anchorjs-link" href="#%e7%94%9f%e6%88%90%e5%af%86%e9%92%a5"></a></h3><p>根据两个账号的信息，生成两对密钥
-按照自己的命名规则，放置在<code>~/.ssh</code>路径下
+<h2 id="实际操作">实际操作<a class="anchorjs-link" href="#%e5%ae%9e%e9%99%85%e6%93%8d%e4%bd%9c"></a></h2><h3 id="生成密钥">生成密钥<a class="anchorjs-link" href="#%e7%94%9f%e6%88%90%e5%af%86%e9%92%a5"></a></h3><p>根据两个账号的信息，生成两对密钥<br>
+按照自己的命名规则，放置在<code>~/.ssh</code>路径下<br>
 分别将这两对密钥加入到对应的 GitHub 账户中</p>
-<h3 id="编辑配置">编辑配置<a class="anchorjs-link" href="#%e7%bc%96%e8%be%91%e9%85%8d%e7%bd%ae"></a></h3><p>编辑<code>~/.ssh/config</code>文件，若无则新建
+<h3 id="编辑配置">编辑配置<a class="anchorjs-link" href="#%e7%bc%96%e8%be%91%e9%85%8d%e7%bd%ae"></a></h3><p>编辑<code>~/.ssh/config</code>文件，若无则新建<br>
 （Host名称和id_rsa_one和id_rsa_two名称自定义即可）</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span># First
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>Host github_one
@@ -218,8 +218,8 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>Hostname ssh.github.com
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9</span><span>IdentityFile ~/.ssh/id_rsa_two
 </span></span></code></pre></div><p>修改配置后在终端使用如下命令检查配置是否正确</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>ssh -T git@github_public
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>ssh -T git@github_private
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>ssh -T git@github_one
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>ssh -T git@github_two
 </span></span></code></pre></div><p>若返回<code>Hi xxx! You've successfully authenticated, but GitHub does not provide shell access.</code>则配置成功</p>
 <h3 id="配置repo">配置repo<a class="anchorjs-link" href="#%e9%85%8d%e7%bd%aerepo"></a></h3><p>之后只需要在添加远程仓库的时候，使用自己设置的Host即可，如：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>git remote add origin git@github_one:xxx/xxx.git
