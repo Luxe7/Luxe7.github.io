@@ -11,9 +11,9 @@
     <atom:link href="https://luxe7.icu/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On My Posh配置</title>
-      <link>https://luxe7.icu/posts/on-my-posh%E9%85%8D%E7%BD%AE/</link>
+      <link>https://luxe7.icu/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://luxe7.icu/posts/on-my-posh%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://luxe7.icu/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
       <description>本文基于Windows 11 Professional 22H2，低于这个版本的Windows可能需要对Terminal进行额外的更新操作 前言在用Helix的时候，突然感</description>
     </item>
     <item>

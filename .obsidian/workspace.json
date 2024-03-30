@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "44f67aae0e4e4906",
+        "id": "1e29f72084a304a0",
         "type": "tabs",
         "children": [
           {
-            "id": "9ca314fcb61bc491",
+            "id": "41c400f720f1fc89",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d0143c098dbcbbed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/On My Posh配置.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/On My Posh配置.md",
+                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/On My Posh配置.md",
+                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/On My Posh配置.md"
+                "file": "content/posts/如何在一台电脑上使用两个Github账号.md"
               }
             }
           }
@@ -201,18 +188,20 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "d0143c098dbcbbed",
+  "active": "c8799ac6ee76f5b1",
   "lastOpenFiles": [
+    "content/posts/On My Posh的使用.md",
+    "public/tags/terminal/index.xml",
+    "public/tags/terminal/index.html",
+    "public/tags/terminal",
+    "public/tags/beautify/index.html",
+    "public/tags/beautify/index.xml",
+    "public/tags/beautify",
+    "public/tags/windows/index.xml",
+    "public/tags/windows/index.html",
+    "public/tags/windows",
+    "public/posts/on-my-posh的使用/index.html",
     "content/posts/如何在一台电脑上使用两个Github账号.md",
-    "content/posts/On My Posh配置.md",
-    "public/posts/newblog/index.html",
-    "public/posts/newblog",
-    "public/posts/on-my-posh配置/index.html",
-    "public/posts/on-my-posh配置",
-    "public/posts/on-my-posh/index.html",
-    "public/posts/on-my-posh",
-    "public/posts/未命名/index.html",
-    "public/posts/未命名",
     "Home.md",
     "content/archive/math-typesetting.md",
     "content/posts/_index.md",
@@ -220,8 +209,6 @@
     "archetypes/default.md",
     "content/about/_index.md",
     "content/_index.md",
-    "public/posts/如何在一台电脑上使用两个github账号/index.html",
-    "public/posts/如何在一台电脑上使用两个github账号",
     "Template/draft.md",
     "content/posts/NewBlog1.md",
     "content/posts/hello.md",
