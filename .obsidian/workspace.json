@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1e29f72084a304a0",
+        "id": "dd98d651029b6b5b",
         "type": "tabs",
         "children": [
           {
-            "id": "41c400f720f1fc89",
+            "id": "343a35aceb58161a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
+                "file": "content/posts/On My Posh的使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
+                "file": "content/posts/On My Posh的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md",
+                "file": "content/posts/On My Posh的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/如何在一台电脑上使用两个Github账号.md"
+                "file": "content/posts/On My Posh的使用.md"
               }
             }
           }
@@ -190,7 +190,9 @@
   },
   "active": "c8799ac6ee76f5b1",
   "lastOpenFiles": [
+    "content/posts/如何在一台电脑上使用两个Github账号.md",
     "content/posts/On My Posh的使用.md",
+    "Home.md",
     "public/tags/terminal/index.xml",
     "public/tags/terminal/index.html",
     "public/tags/terminal",
@@ -201,8 +203,6 @@
     "public/tags/windows/index.html",
     "public/tags/windows",
     "public/posts/on-my-posh的使用/index.html",
-    "content/posts/如何在一台电脑上使用两个Github账号.md",
-    "Home.md",
     "content/archive/math-typesetting.md",
     "content/posts/_index.md",
     "content/archive/_index.md",

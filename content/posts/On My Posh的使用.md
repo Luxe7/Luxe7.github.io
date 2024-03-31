@@ -18,14 +18,14 @@ tags:
 ## 配置
 ### 下载与安装
 *（建议使用网络工具进行以下操作）*  
-推荐使用`winget`进行安装  
+方法一：使用`winget`进行安装  
 Windows一直缺乏一个完善的官方包管理系统，微软商店也因为一些众所周知的原因不是很好用，不过2020年微软推出了`winget`，也算是填补了这一点
 
 使用Power Shell 运行以下命令安装Oh My Posh 
 ```powershell
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
-也可以进入微软商店搜索On My Posh进行下载
+方法二：进入微软商店搜索On My Posh进行下载
 
 然后下载作者推荐的[MesloLGM NF字体](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip)，下载后解压，全选右键点击安装即可自动安装
 ### 进行配置

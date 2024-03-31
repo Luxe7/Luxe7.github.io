@@ -201,11 +201,11 @@
 <h2 id="前言">前言<a class="anchorjs-link" href="#%e5%89%8d%e8%a8%80"></a></h2><p>在用<a href="https://helix-editor.com/" target="_blank">Helix</a>的时候，突然感觉Windows的终端看起来有点emm..所以就想改变一下外观<br>
 <a href="https://ohmyposh.dev/" target="_blank">On My Posh</a>是一款全平台终端提示符个性化工具，简要地讲，它可以让你的终端（那个黑框框，或者蓝框框）变得稍微好看一点</p>
 <h2 id="配置">配置<a class="anchorjs-link" href="#%e9%85%8d%e7%bd%ae"></a></h2><h3 id="下载与安装">下载与安装<a class="anchorjs-link" href="#%e4%b8%8b%e8%bd%bd%e4%b8%8e%e5%ae%89%e8%a3%85"></a></h3><p><em>（建议使用网络工具进行以下操作）</em><br>
-推荐使用<code>winget</code>进行安装<br>
+方法一：使用<code>winget</code>进行安装<br>
 Windows一直缺乏一个完善的官方包管理系统，微软商店也因为一些众所周知的原因不是很好用，不过2020年微软推出了<code>winget</code>，也算是填补了这一点</p>
 <p>使用Power Shell 运行以下命令安装Oh My Posh</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>winget install JanDeDobbeleer.OhMyPosh -s winget
-</span></span></code></pre></div><p>也可以进入微软商店搜索On My Posh进行下载</p>
+</span></span></code></pre></div><p>方法二：进入微软商店搜索On My Posh进行下载</p>
 <p>然后下载作者推荐的<a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip" target="_blank">MesloLGM NF字体</a>，下载后解压，全选右键点击安装即可自动安装</p>
 <h3 id="进行配置">进行配置<a class="anchorjs-link" href="#%e8%bf%9b%e8%a1%8c%e9%85%8d%e7%bd%ae"></a></h3><p>在Terminal中按<code>ctrl + ,</code>打开配置文件，点击左下角打开JSON文件，找到<code>profiles-defaults</code>，修改为如下代码：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#f1fa8c">&#34;defaults&#34;</span>: {
