@@ -21,16 +21,17 @@ tags:
 如果要使用 Web 版的微信读书，每次打开浏览器再使用，是非常麻烦的，不过好在 Edge 中有一个功能，可以将网页安装为应用，非常方便
 
 进入微信读书首页，然后点击右上角三个点，在应用选项中选择“将此站点作为应用安装”，选择创建桌面快捷路径即可
+
 如果你想了解更多，详细可参考[这里](https://support.microsoft.com/zh-cn/topic/%E5%9C%A8-microsoft-edge-%E4%B8%AD%E5%AE%89%E8%A3%85-%E7%AE%A1%E7%90%86%E6%88%96%E5%8D%B8%E8%BD%BD%E5%BA%94%E7%94%A8-0c156575-a94a-45e4-a54f-3a84846f6113)
 ### 其他问题
 #### 美化
 打开应用后，可以调整窗口大小，使整个页面充满文字，阅读体验接近手机
 
-但是你在右边可能会看到滚动条无法隐藏，这里需要使用一个拓展插件，[隐形滚动条 - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/%E9%9A%90%E5%BD%A2%E6%BB%9A%E5%8A%A8%E6%9D%A1/jmopomhdbfldgbfmmkldkkeahhpbldal)，在 Edge 中安装，然后重启 Edge 即可
+但是你在右边可能会看到滚动条无法隐藏，这里需要使用一个拓展插件，[隐形滚动条](https://microsoftedge.microsoft.com/addons/detail/%E9%9A%90%E5%BD%A2%E6%BB%9A%E5%8A%A8%E6%9D%A1/jmopomhdbfldgbfmmkldkkeahhpbldal)，在 Edge 中安装，然后重启 Edge 即可
 它会默认在页面顶部显示一个红色的进度条，可以在插件设置中，修改透明度，使其完全不可见
 
 做完以上两件美化，应该说阅读体验就变得可以接受了
 #### 导入本地图书
-免费导入的本地图书每月只有3本，但在付费会员期间是可以导入无限量图书的，解决办法很简单，充值会员
+免费导入的本地图书每月只有3本，但在付费会员期间是可以导入无限量图书的，解决办法很简单：充值会员
 
 如果你已经准备好了大量的书籍等待导入，那么可以进行1元7天打卡挑战，挑战成功后可以获得4天会员，会员期间可以无限量导入
