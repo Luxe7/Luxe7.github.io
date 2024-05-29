@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PC on Luxe7&#39;s Blog</title>
+    <link>https://luxe7.icu/tags/pc/</link>
+    <description>Recent content in PC on Luxe7&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ch</language>
+    <copyright>©2021-2024 Luxe7. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://luxe7.icu/tags/pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC微信读书最佳实践</title>
+      <link>https://luxe7.icu/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://luxe7.icu/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
+      <description>为什么需要微信读书我的需求： 可跨端阅读，保存上次阅读的位置 可导入本地图书，我需要阅读专业书籍或其他文本 最好可以记录阅读数据 最好可以自定义阅读</description>
+    </item>
+  </channel>
+</rss>

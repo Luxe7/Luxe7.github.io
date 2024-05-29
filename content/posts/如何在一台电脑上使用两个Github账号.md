@@ -3,7 +3,6 @@ title: 如何在一台电脑上使用两个Github账号
 date: 2023-10-28
 description: 设置远程仓库时使用不同的 Host 名称，查找`~/.ssh/config`文件，使用不同的 SSH 文件连接到 GitHub
 header_img: 
-short: false
 math: 
 tags:
   - Git

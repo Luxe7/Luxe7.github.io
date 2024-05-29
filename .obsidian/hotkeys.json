@@ -55,5 +55,13 @@
       ],
       "key": "6"
     }
+  ],
+  "Enhanced-editing:add-allSpspace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
   ]
 }

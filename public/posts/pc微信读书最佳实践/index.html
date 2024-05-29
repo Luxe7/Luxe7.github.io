@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="ch">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   
     
-  <title> | Luxe7&#39;s Blog</title>
+  <title>PC微信读书最佳实践 | Luxe7&#39;s Blog</title>
   <meta name="author" content="Luxe7">
-  <meta name="description" content="起源是我在看一个Web框架的源码的时候，我看到有人说，路由树中句柄数越多的分支，要使之越容易被匹配到，这个地方的句柄真给我搞懵了，突然一下子">
+  <meta name="description" content="如何在PC端得到一个良好的微信读书体验">
   <meta name="keywords" content="blog,developer,personal">
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="起源是我在看一个Web框架的源码的时候，我看到有人说，路由树中句柄数越多的分支，要使之越容易被匹配到，这个地方的句柄真给我搞懵了，突然一下子"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="PC微信读书最佳实践"/>
+<meta name="twitter:description" content="如何在PC端得到一个良好的微信读书体验"/>
 
-  <meta property="og:title" content="" />
-<meta property="og:description" content="起源是我在看一个Web框架的源码的时候，我看到有人说，路由树中句柄数越多的分支，要使之越容易被匹配到，这个地方的句柄真给我搞懵了，突然一下子" />
+  <meta property="og:title" content="PC微信读书最佳实践" />
+<meta property="og:description" content="如何在PC端得到一个良好的微信读书体验" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/newblog/" /><meta property="article:section" content="posts" />
-
-
+<meta property="og:url" content="https://luxe7.icu/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-05-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-05-29T00:00:00+00:00" />
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
   
@@ -55,7 +55,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://localhost:1313/">Luxe7&#39;s Blog</a>
+      <a class="navbar-brand" href="https://luxe7.icu/">Luxe7&#39;s Blog</a>
     </div>
     
     <div id="huxblog_navbar">
@@ -163,12 +163,16 @@
         <div class="post-heading">
           <div class="tags">
             
+            <a class="tag" href="/tags/pc/" title="PC">PC</a>
+            
+            <a class="tag" href="/tags/software/" title="SoftWare">SoftWare</a>
+            
           </div>
-          <h1></h1>
+          <h1>PC微信读书最佳实践</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Luxe7 
-            on Mon, Jan 1, 0001
+            on Wed, May 29, 2024
           </span>
         </div>
       </div>
@@ -189,32 +193,36 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>起源是我在看一个Web框架的源码的时候，我看到有人说，路由树中句柄数越多的分支，要使之越容易被匹配到，这个地方的句柄真给我搞懵了，突然一下子想不起来这是什么意思了</p>
-<p>在知乎看到<a href="https://www.zhihu.com/people/huang-jing-cheng" target="_blank">黄兢成</a>大佬的回答，才明白来龙去脉：
-句柄这个翻译有点奇怪。据<a href="https://www.zhihu.com/search?q=%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A943130123%7D" target="_blank">维基百科</a>，<a href="https://link.zhihu.com/?target=https%3A//zh.wikipedia.org/wiki/%25E5%258F%25A5%25E6%259F%2584" target="_blank">句柄</a> 的条目。
-David Gries所著的《<a href="https://www.zhihu.com/search?q=Compiler%20Construction%20for%20Digital%20Computer&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A943130123%7D" target="_blank">Compiler Construction for Digital Computer</a>》（1971）有句话</p>
-<blockquote>
-<p>A handle of any sentential form is a leftmost simple phrase.</p>
-</blockquote>
-<p>该书中译本，《<a href="https://www.zhihu.com/search?q=%E6%95%B0%E5%AD%97%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E7%BC%96%E8%AF%91%E7%A8%8B%E5%BA%8F%E6%9E%84%E9%80%A0&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A943130123%7D" target="_blank">数字计算机的编译程序构造</a>》(仲萃豪译, 1976 版）翻译成</p>
-<blockquote>
-<p>任一句型的句柄就是此句型的最左简单短语。</p>
-</blockquote>
-<p>这可能是句柄一词最早的出处。
-这里确实是在讨论句子。在这里句柄是个意译的合成词，两个字分拆开，“句柄”中的“柄”，用法就类似于，“刀柄”中的“柄”。用在此处是适当的。
-但以后将各种资源 handle, 都翻译成句柄时，就有点滥用了。</p>
+        <h2 id="为什么需要微信读书">为什么需要微信读书<a class="anchorjs-link" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e5%be%ae%e4%bf%a1%e8%af%bb%e4%b9%a6"></a></h2><p>我的需求：</p>
+<ul>
+<li>可跨端阅读，保存上次阅读的位置</li>
+<li>可导入本地图书，我需要阅读专业书籍或其他文本</li>
+<li>最好可以记录阅读数据</li>
+<li>最好可以自定义阅读界面，比如字体，字号，行距，段距等</li>
+</ul>
+<p>我一开始找了很多 PC 端的阅读器，比如<a href="https://www.flowoss.com/zh-CN" target="_blank">Flow</a>，<a href="https://www.sumatrapdfreader.org/free-pdf-reader" target="_blank">Sumatra PDF</a>，<a href="https://koodo.960960.xyz/zh" target="_blank">Koodo Reader</a>，作为阅读器来说他们绝对是合格的，但是有些同步不方便，有些 UI 非常简陋，终究是没有找到一个非常合适的阅读器，或多或少都有一些缺点</p>
+<p>而 Web 版的微信读书，优点是可以跨端阅读也可以记录阅读数据，缺点是免费导入的本地图书每月只有3本，也不可以自定义阅读界面，不过综合考虑下来，我觉得在 PC 端上阅读，Web 版的微信读书值得一试</p>
+<h2 id="配置微信读书">配置微信读书<a class="anchorjs-link" href="#%e9%85%8d%e7%bd%ae%e5%be%ae%e4%bf%a1%e8%af%bb%e4%b9%a6"></a></h2><h3 id="将网页安装为应用">将网页安装为应用<a class="anchorjs-link" href="#%e5%b0%86%e7%bd%91%e9%a1%b5%e5%ae%89%e8%a3%85%e4%b8%ba%e5%ba%94%e7%94%a8"></a></h3><p>如果要使用 Web 版的微信读书，每次打开浏览器再使用，是非常麻烦的，不过好在 Edge 中有一个功能，可以将网页安装为应用，非常方便</p>
+<p>进入微信读书首页，然后点击右上角三个点，在应用选项中选择“将此站点作为应用安装”，选择创建桌面快捷路径即可
+如果你想了解更多，详细可参考<a href="https://support.microsoft.com/zh-cn/topic/%E5%9C%A8-microsoft-edge-%E4%B8%AD%E5%AE%89%E8%A3%85-%E7%AE%A1%E7%90%86%E6%88%96%E5%8D%B8%E8%BD%BD%E5%BA%94%E7%94%A8-0c156575-a94a-45e4-a54f-3a84846f6113" target="_blank">这里</a></p>
+<h3 id="其他问题">其他问题<a class="anchorjs-link" href="#%e5%85%b6%e4%bb%96%e9%97%ae%e9%a2%98"></a></h3><h4 id="美化">美化<a class="anchorjs-link" href="#%e7%be%8e%e5%8c%96"></a></h4><p>打开应用后，可以调整窗口大小，使整个页面充满文字，阅读体验接近手机</p>
+<p>但是你在右边可能会看到滚动条无法隐藏，这里需要使用一个拓展插件，<a href="https://microsoftedge.microsoft.com/addons/detail/%E9%9A%90%E5%BD%A2%E6%BB%9A%E5%8A%A8%E6%9D%A1/jmopomhdbfldgbfmmkldkkeahhpbldal" target="_blank">隐形滚动条 - Microsoft Edge Addons</a>，在 Edge 中安装，然后重启 Edge 即可
+它会默认在页面顶部显示一个红色的进度条，可以在插件设置中，修改透明度，使其完全不可见</p>
+<p>做完以上两件美化，应该说阅读体验就变得可以接受了</p>
+<h4 id="导入本地图书">导入本地图书<a class="anchorjs-link" href="#%e5%af%bc%e5%85%a5%e6%9c%ac%e5%9c%b0%e5%9b%be%e4%b9%a6"></a></h4><p>免费导入的本地图书每月只有3本，但在付费会员期间是可以导入无限量图书的，解决办法很简单，充值会员</p>
+<p>如果你已经准备好了大量的书籍等待导入，那么可以进行1元7天打卡挑战，挑战成功后可以获得4天会员，会员期间可以无限量导入</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
-          
-          <li class="next">
-            <a href="/posts/math-typesetting/" data-toggle="tooltip" data-placement="top" title="Math Typesetting">
-              Next<br>
-              <span>Math Typesetting</span>
+          <li class="previous">
+            <a href="/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/" data-toggle="tooltip" data-placement="top" title="On My Posh配置">
+              Previous<br>
+              <span>On My Posh配置</span>
             </a>
           </li>
+          
           
         </ul>
         <hr style="visibility: hidden;" />
@@ -248,13 +256,13 @@ David Gries所著的《<a href="https://www.zhihu.com/search?q=Compiler%20Constr
   <h5>FEATURED TAGS</h5>
   <div class="tags">
     
-    <a href="/tags/beautify/">Beautify</a>
-    
     <a href="/tags/git/">Git</a>
     
-    <a href="/tags/ssh/">SSH</a>
+    <a href="/tags/pc/">PC</a>
     
-    <a href="/tags/terminal/">Terminal</a>
+    <a href="/tags/software/">SoftWare</a>
+    
+    <a href="/tags/ssh/">SSH</a>
     
     <a href="/tags/windows/">Windows</a>
     
@@ -338,6 +346,8 @@ David Gries所著的《<a href="https://www.zhihu.com/search?q=Compiler%20Constr
 
 
 <script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
 
 
 

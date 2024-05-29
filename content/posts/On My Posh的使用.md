@@ -6,9 +6,8 @@ header_img:
 short: 
 math: 
 tags:
-  - Terminal
   - Windows
-  - beautify
+  - SoftWare
 ---
 >本文基于Windows 11 Professional 22H2，低于这个版本的Windows可能需要对Terminal进行额外的更新操作
 
