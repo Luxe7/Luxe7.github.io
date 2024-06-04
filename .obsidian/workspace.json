@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "77657960c4d0a25c",
+        "id": "20812b6302c5f096",
         "type": "tabs",
         "children": [
           {
-            "id": "1e63de5a771285b0",
+            "id": "c42bd65f6c6965c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/前缀和.md",
+                "file": "content/posts/宣告---献给遇罗克.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/前缀和.md",
+                "file": "content/posts/宣告---献给遇罗克.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/前缀和.md",
+                "file": "content/posts/宣告---献给遇罗克.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/前缀和.md"
+                "file": "content/posts/宣告---献给遇罗克.md"
               }
             }
           }
@@ -188,13 +188,22 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "1e63de5a771285b0",
+  "active": "c42bd65f6c6965c0",
   "lastOpenFiles": [
+    "public/con-img/a3cx4-xg3b9.jpg",
+    "public/con-img",
+    "public/posts/宣告---献给遇罗克/index.html",
+    "public/posts/宣告---献给遇罗克",
+    "public/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js",
+    "Home.md",
+    "content/posts/宣告---献给遇罗克.md",
+    "archetypes/default.md",
+    "Save",
+    "Save/math-typesetting.md",
     "public/posts/前缀和/index.html",
     "public/posts/前缀和",
     "Template/draft.md",
     "content/_index.md",
-    "content/posts/math-typesetting.md",
     "content/posts/前缀和.md",
     "content/series/Algorithm/_index.md",
     "public/series/algorithm/index.xml",
@@ -202,24 +211,16 @@
     "content/series/Algorithm",
     "content/archive/_index.md",
     "content/about/_index.md",
-    "public/archive/_index-1/index.html",
-    "public/archive/_index-1",
-    "public/series/_index-1/index.html",
-    "public/series/_index-1",
-    "public/posts/_index-1/index.html",
-    "public/posts/_index-1",
     "content/posts/_index.md",
     "content/posts/PC微信读书最佳实践.md",
     "content/posts/如何在一台电脑上使用两个Github账号.md",
     "content/posts/On My Posh的使用.md",
-    "Home.md",
     "在.md",
     "themes/puppet/exampleSite/content/series/themes-guide/_index.md",
     "Draft/那些CS中的离谱中文翻译.md",
     "Draft/那些CS中的离谱中文翻译.md",
     "themes/puppet/exampleSite/content/_index.md",
     "themes/puppet/exampleSite/content/posts/_index.md",
-    "archetypes/default.md",
     "content/posts/NewBlog1.md",
     "content/posts/hello.md",
     "content/posts/2024.md",
