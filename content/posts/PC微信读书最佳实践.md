@@ -27,7 +27,7 @@ tags:
 #### 美化
 打开应用后，可以调整窗口大小，使整个页面充满文字，阅读体验接近手机
 
-但是你在右边可能会看到滚动条无法隐藏，这里需要使用一个拓展插件，[隐形滚动条](https://microsoftedge.microsoft.com/addons/detail/%E9%9A%90%E5%BD%A2%E6%BB%9A%E5%8A%A8%E6%9D%A1/jmopomhdbfldgbfmmkldkkeahhpbldal)，在 Edge 中安装，然后重启 Edge 即可<br>
+但是你在右边可能会看到滚动条无法隐藏，这里需要使用一个拓展插件，[隐形滚动条](https://microsoftedge.microsoft.com/addons/detail/%E9%9A%90%E5%BD%A2%E6%BB%9A%E5%8A%A8%E6%9D%A1/jmopomhdbfldgbfmmkldkkeahhpbldal)，在 Edge 中安装，然后重启 Edge 即可  
 它会默认在页面顶部显示一个红色的进度条，可以在插件设置中，修改透明度，使其完全不可见
 
 做完以上两件美化，应该说阅读体验就变得可以接受了
