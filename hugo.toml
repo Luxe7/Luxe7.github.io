@@ -57,6 +57,11 @@ weight = 10
 # url = "/series/themes-guide/"
 # weight = 20
 [[menu.main]]
+identifier = "series"
+name = "Series"
+url = "/series/"
+weight = 20
+[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"

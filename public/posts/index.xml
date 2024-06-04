@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ch</language>
     <copyright>©2021-2024 Luxe7. All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://luxe7.icu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前缀和</title>
+      <link>https://luxe7.icu/posts/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://luxe7.icu/posts/%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
+      <description>一维前缀和对于数组 a，定义它的前缀和数组 s 为: 1s[0] = 0 2s[1] = a[0] + a[1] 3s[2] = a[0] + a[1] + a[2] 4...... 根据这个定义，有 1s[i+1] = s[i] + a[i] 通过前缀和，我们可以把连续子数组的元</description>
+    </item>
     <item>
       <title>PC微信读书最佳实践</title>
       <link>https://luxe7.icu/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>

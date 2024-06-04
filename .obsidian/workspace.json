@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0ef72ba98f267823",
+            "id": "1e63de5a771285b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/PC微信读书最佳实践.md",
+                "file": "content/posts/前缀和.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:beautify",
+                "query": "tag:Algorithm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/PC微信读书最佳实践.md",
+                "file": "content/posts/前缀和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/PC微信读书最佳实践.md",
+                "file": "content/posts/前缀和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/PC微信读书最佳实践.md"
+                "file": "content/posts/前缀和.md"
               }
             }
           }
@@ -188,43 +188,43 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "c8799ac6ee76f5b1",
+  "active": "1e63de5a771285b0",
   "lastOpenFiles": [
-    "content/posts/On My Posh的使用.md",
+    "public/posts/前缀和/index.html",
+    "public/posts/前缀和",
+    "Template/draft.md",
     "content/_index.md",
     "content/posts/math-typesetting.md",
+    "content/posts/前缀和.md",
+    "content/series/Algorithm/_index.md",
+    "public/series/algorithm/index.xml",
+    "public/series/algorithm/index.html",
+    "content/series/Algorithm",
+    "content/archive/_index.md",
+    "content/about/_index.md",
+    "public/archive/_index-1/index.html",
+    "public/archive/_index-1",
+    "public/series/_index-1/index.html",
+    "public/series/_index-1",
+    "public/posts/_index-1/index.html",
+    "public/posts/_index-1",
+    "content/posts/_index.md",
     "content/posts/PC微信读书最佳实践.md",
     "content/posts/如何在一台电脑上使用两个Github账号.md",
+    "content/posts/On My Posh的使用.md",
     "Home.md",
-    "public/tags/software/index.html",
-    "public/tags/software/index.xml",
-    "public/tags/software",
-    "public/tags/pc/index.xml",
-    "public/tags/pc/index.html",
-    "public/tags/pc",
-    "public/posts/pc微信读书最佳实践/index.html",
-    "public/posts/pc微信读书最佳实践",
-    "resources/_gen/assets/sass/tagcolor-template.scss_1439b9881fe044c476de92482601b620.content",
-    "resources/_gen/assets/sass/tagcolor-template.scss_1439b9881fe044c476de92482601b620.json",
     "在.md",
     "themes/puppet/exampleSite/content/series/themes-guide/_index.md",
     "Draft/那些CS中的离谱中文翻译.md",
     "Draft/那些CS中的离谱中文翻译.md",
     "themes/puppet/exampleSite/content/_index.md",
     "themes/puppet/exampleSite/content/posts/_index.md",
-    "Template/draft.md",
-    "content/archive/_index.md",
-    "content/posts/_index.md",
-    "content/about/_index.md",
     "archetypes/default.md",
     "content/posts/NewBlog1.md",
     "content/posts/hello.md",
     "content/posts/2024.md",
     "content/posts/2024#3#21.md",
     "content/posts/2024.3.21.md",
-    "content/posts/2024/3/21.md",
-    "content/posts/你好.md",
-    "content/posts/markdown-syntax.md",
     "未命名.canvas",
     "Pasted image 20231205233302.png",
     "购买流程.png",
