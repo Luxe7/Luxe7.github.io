@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1e449b5fba95244",
+        "id": "77657960c4d0a25c",
         "type": "tabs",
         "children": [
           {
-            "id": "d84c4fcceb8d160a",
+            "id": "0ef72ba98f267823",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,8 +188,14 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "d84c4fcceb8d160a",
+  "active": "c8799ac6ee76f5b1",
   "lastOpenFiles": [
+    "content/posts/On My Posh的使用.md",
+    "content/_index.md",
+    "content/posts/math-typesetting.md",
+    "content/posts/PC微信读书最佳实践.md",
+    "content/posts/如何在一台电脑上使用两个Github账号.md",
+    "Home.md",
     "public/tags/software/index.html",
     "public/tags/software/index.xml",
     "public/tags/software",
@@ -201,19 +207,12 @@
     "resources/_gen/assets/sass/tagcolor-template.scss_1439b9881fe044c476de92482601b620.content",
     "resources/_gen/assets/sass/tagcolor-template.scss_1439b9881fe044c476de92482601b620.json",
     "在.md",
-    "content/posts/PC微信读书最佳实践.md",
-    "Home.md",
-    "content/posts/On My Posh的使用.md",
-    "content/posts/如何在一台电脑上使用两个Github账号.md",
-    "content/posts/math-typesetting.md",
     "themes/puppet/exampleSite/content/series/themes-guide/_index.md",
     "Draft/那些CS中的离谱中文翻译.md",
     "Draft/那些CS中的离谱中文翻译.md",
-    "Draft",
     "themes/puppet/exampleSite/content/_index.md",
     "themes/puppet/exampleSite/content/posts/_index.md",
     "Template/draft.md",
-    "content/_index.md",
     "content/archive/_index.md",
     "content/posts/_index.md",
     "content/about/_index.md",

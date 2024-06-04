@@ -7,5 +7,5 @@
     "downscalePercent": 85
   },
   "promptDelete": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": false
 }
