@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "20812b6302c5f096",
+        "id": "3b10832490e9f746",
         "type": "tabs",
         "children": [
           {
-            "id": "c42bd65f6c6965c0",
+            "id": "d58825309124778b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/宣告---献给遇罗克.md",
+                "file": "content/posts/前缀和.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/宣告---献给遇罗克.md",
+                "file": "content/posts/前缀和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/宣告---献给遇罗克.md",
+                "file": "content/posts/前缀和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/宣告---献给遇罗克.md"
+                "file": "content/posts/前缀和.md"
               }
             }
           }
@@ -188,15 +188,16 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "c42bd65f6c6965c0",
+  "active": "d58825309124778b",
   "lastOpenFiles": [
+    "content/posts/宣告---献给遇罗克.md",
+    "content/posts/前缀和.md",
+    "Home.md",
     "public/con-img/a3cx4-xg3b9.jpg",
     "public/con-img",
     "public/posts/宣告---献给遇罗克/index.html",
     "public/posts/宣告---献给遇罗克",
     "public/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js",
-    "Home.md",
-    "content/posts/宣告---献给遇罗克.md",
     "archetypes/default.md",
     "Save",
     "Save/math-typesetting.md",
@@ -204,7 +205,6 @@
     "public/posts/前缀和",
     "Template/draft.md",
     "content/_index.md",
-    "content/posts/前缀和.md",
     "content/series/Algorithm/_index.md",
     "public/series/algorithm/index.xml",
     "public/series/algorithm/index.html",
@@ -235,7 +235,6 @@
     "结构.png",
     "Pasted image 20231225154437.png",
     "Pasted image 20231225151828.png",
-    "Pasted image 20231225151825.png",
-    "Pasted image 20231225130953.png"
+    "Pasted image 20231225151825.png"
   ]
 }
