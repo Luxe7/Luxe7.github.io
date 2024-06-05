@@ -20,8 +20,8 @@
 <meta property="og:description" content="介绍前缀和相关知识" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://luxe7.icu/posts/%E5%89%8D%E7%BC%80%E5%92%8C/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-06-04T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-06-04T00:00:00+00:00" />
+<meta property="article:published_time" content="2024-06-04T14:23:13+00:00" />
+<meta property="article:modified_time" content="2024-06-04T14:23:13+00:00" />
 
 
 
@@ -202,7 +202,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#ff79c6">......</span>
 </span></span></code></pre></div><p>根据这个定义，有</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>s[i<span style="color:#ff79c6">+</span><span style="color:#bd93f9">1</span>] <span style="color:#ff79c6">=</span> s[i] <span style="color:#ff79c6">+</span> a[i]
-</span></span></code></pre></div><p>通过前缀和，我们可以把<strong>连续子数组的元素和转换成两个前缀和的差</strong>
+</span></span></code></pre></div><p>通过前缀和，我们可以把<strong>连续子数组的元素和转换成两个前缀和的差</strong><br>
 <code>a[left]</code>到<code>a[right]</code> 的元素和等于<code>s[right+1]−s[left]</code></p>
 <p>为什么要定义 <code>s[0]=0</code>，这样做有什么好处？</p>
 <p>如果 <code>left=0</code>，要计算的子数组是一个前缀，从 <code>a[0]</code> 到 <code>a[right]</code>，我们要用 <code>s[right+1]</code>减去 <code>s[0]</code>。如果不定义 <code>s[0]=0</code>，就必须特判 <code>left=0</code>的情况了。通过定义 <code>s[0]=0</code>，任意子数组（包括前缀）都可以表示为两个前缀和的差<br>
@@ -218,7 +218,7 @@
 </span></span></code></pre></div><h2 id="前缀和的其他变化">前缀和的其他变化<a class="anchorjs-link" href="#%e5%89%8d%e7%bc%80%e5%92%8c%e7%9a%84%e5%85%b6%e4%bb%96%e5%8f%98%e5%8c%96"></a></h2><p>这种思想不仅可以用来表示求和，乘积、异或等运算也可以使用</p>
 <p>考虑这样一个问题：</p>
 <blockquote>
-<p>Given an integer array <code>nums</code>, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is equal to the product of all the elements of</em> <code>nums</code> <em>except</em> <code>nums[i]</code>.
+<p>Given an integer array <code>nums</code>, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is equal to the product of all the elements of</em> <code>nums</code> <em>except</em> <code>nums[i]</code>.<br>
 The product of any prefix or suffix of <code>nums</code> is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.
 You must write an algorithm that runs in <code>O(n)</code> time and without using the division operation.</p>
 </blockquote>
@@ -267,12 +267,19 @@ Output: [0,0,9,0,0]
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/%E5%AE%A3%E5%91%8A---%E7%8C%AE%E7%BB%99%E9%81%87%E7%BD%97%E5%85%8B/" data-toggle="tooltip" data-placement="top" title="宣告---献给遇罗克">
+            <a href="/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" data-toggle="tooltip" data-placement="top" title="PC微信读书最佳实践">
               Previous<br>
-              <span>宣告---献给遇罗克</span>
+              <span>PC微信读书最佳实践</span>
             </a>
           </li>
           
+          
+          <li class="next">
+            <a href="/posts/%E5%AE%A3%E5%91%8A---%E7%8C%AE%E7%BB%99%E9%81%87%E7%BD%97%E5%85%8B/" data-toggle="tooltip" data-placement="top" title="宣告---献给遇罗克">
+              Next<br>
+              <span>宣告---献给遇罗克</span>
+            </a>
+          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
