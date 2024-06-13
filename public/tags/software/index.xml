@@ -11,16 +11,16 @@
     <atom:link href="https://luxe7.icu/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PC微信读书最佳实践</title>
-      <link>https://luxe7.icu/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://luxe7.icu/posts/3.pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://luxe7.icu/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://luxe7.icu/posts/3.pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
       <description>为什么需要微信读书我的需求： 可跨端阅读，保存上次阅读的位置 可导入本地图书，我需要阅读专业书籍或其他文本 最好可以记录阅读数据 最好可以自定义阅读</description>
     </item>
     <item>
-      <title>On My Posh配置</title>
-      <link>https://luxe7.icu/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <title>使用 On My Posh 美化 Terminal</title>
+      <link>https://luxe7.icu/posts/2.on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://luxe7.icu/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://luxe7.icu/posts/2.on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
       <description>本文基于Windows 11 Professional 22H2，低于这个版本的Windows可能需要对Terminal进行额外的更新操作 前言在用Helix的时候，突然感</description>
     </item>
   </channel>

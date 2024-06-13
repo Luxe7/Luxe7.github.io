@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://luxe7.icu/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>前缀和</title>
-      <link>https://luxe7.icu/posts/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+      <title>Algorithm | 前缀和</title>
+      <link>https://luxe7.icu/posts/5.%E5%89%8D%E7%BC%80%E5%92%8C/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://luxe7.icu/posts/%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
+      <guid>https://luxe7.icu/posts/5.%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
       <description>一维前缀和对于数组 a，定义它的前缀和数组 s 为: 1s[0] = 0 2s[1] = a[0] + a[1] 3s[2] = a[0] + a[1] + a[2] 4...... 根据这个定义，有 1s[i+1] = s[i] + a[i] 通过前缀和，我们可以把连续子数组的元</description>
     </item>
   </channel>

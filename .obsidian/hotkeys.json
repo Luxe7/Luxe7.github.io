@@ -63,5 +63,21 @@
       ],
       "key": " "
     }
+  ],
+  "Enhanced-editing:add-space1": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "Enhanced-editing:this-twoSpace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }
