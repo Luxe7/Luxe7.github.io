@@ -7,6 +7,6 @@
     "downscalePercent": 85
   },
   "promptDelete": false,
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "attachmentFolderPath": "public/con-img"
 }
