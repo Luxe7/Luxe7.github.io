@@ -34,8 +34,8 @@ toc = true
 
 ## 开始折腾  
 
-关于 PC 端的微信阅读，我之前已经解决了，感兴趣可以阅读这篇博客  
-
+关于 PC 端的微信阅读，我之前已经解决了，感兴趣可以阅读[这篇博客](https://luxe7.icu/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/)  
+  
 所以主要需要解决的问题是如何在 PC 端阅读漫画  
 
 ### YACReader  
