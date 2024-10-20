@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="ch">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   
     
-  <title>On My Posh配置 | Luxe7&#39;s Blog</title>
+  <title>使用 On My Posh 美化 Terminal | Luxe7&#39;s Blog</title>
   <meta name="author" content="Luxe7">
-  <meta name="description" content="如何将黑黑的或蓝蓝的Terminal变为自己喜欢的样子">
+  <meta name="description" content="如何将黑黑的或蓝蓝的 Terminal 变为自己喜欢的样子">
   <meta name="keywords" content="blog,developer,personal">
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="On My Posh配置"/>
-<meta name="twitter:description" content="如何将黑黑的或蓝蓝的Terminal变为自己喜欢的样子"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="使用 On My Posh 美化 Terminal"/>
+<meta name="twitter:description" content="如何将黑黑的或蓝蓝的 Terminal 变为自己喜欢的样子"/>
 
-  <meta property="og:title" content="On My Posh配置" />
-<meta property="og:description" content="如何将黑黑的或蓝蓝的Terminal变为自己喜欢的样子" />
+  <meta property="og:title" content="使用 On My Posh 美化 Terminal" />
+<meta property="og:description" content="如何将黑黑的或蓝蓝的 Terminal 变为自己喜欢的样子" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://luxe7.icu/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-03-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-03-02T00:00:00+00:00" />
 
@@ -56,7 +56,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://localhost:1313/">Luxe7&#39;s Blog</a>
+      <a class="navbar-brand" href="https://luxe7.icu/">Luxe7&#39;s Blog</a>
     </div>
     
     <div id="huxblog_navbar">
@@ -171,7 +171,7 @@
             <a class="tag" href="/tags/software/" title="SoftWare">SoftWare</a>
             
           </div>
-          <h1>On My Posh配置</h1>
+          <h1>使用 On My Posh 美化 Terminal</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Luxe7 
@@ -199,62 +199,98 @@
         <blockquote>
 <p>本文基于Windows 11 Professional 22H2，低于这个版本的Windows可能需要对Terminal进行额外的更新操作</p>
 </blockquote>
-<h2 id="前言">前言<a class="anchorjs-link" href="#%e5%89%8d%e8%a8%80"></a></h2><p>在用<a href="https://helix-editor.com/" target="_blank">Helix</a>的时候，突然感觉Windows的终端看起来有点emm..所以就想改变一下外观<br>
-<a href="https://ohmyposh.dev/" target="_blank">On My Posh</a>是一款全平台终端提示符个性化工具，简要地讲，它可以让你的终端（那个黑框框，或者蓝框框）变得稍微好看一点</p>
-<h2 id="配置">配置<a class="anchorjs-link" href="#%e9%85%8d%e7%bd%ae"></a></h2><h3 id="下载与安装">下载与安装<a class="anchorjs-link" href="#%e4%b8%8b%e8%bd%bd%e4%b8%8e%e5%ae%89%e8%a3%85"></a></h3><p><em>（建议使用网络工具进行以下操作）</em><br>
-方法一：使用<code>winget</code>进行安装<br>
-Windows一直缺乏一个完善的官方包管理系统，微软商店也因为一些众所周知的原因不是很好用，不过2020年微软推出了<code>winget</code>，也算是填补了这一点</p>
+<h2 id="前言">前言<a class="anchorjs-link" href="#%e5%89%8d%e8%a8%80"></a></h2><p>在用<a href="https://helix-editor.com/" target="_blank">Helix</a>的时候，突然感觉Windows的终端看起来有点emm..所以就想改变一下外观</p>
+<p><a href="https://ohmyposh.dev/" target="_blank">On My Posh</a>是一款全平台终端提示符个性化工具，简要地讲，它可以让你的终端（那个黑框框，或者蓝框框）变得稍微好看一点</p>
+<h2 id="配置">配置<a class="anchorjs-link" href="#%e9%85%8d%e7%bd%ae"></a></h2><h3 id="下载与安装">下载与安装<a class="anchorjs-link" href="#%e4%b8%8b%e8%bd%bd%e4%b8%8e%e5%ae%89%e8%a3%85"></a></h3><p><em>（建议使用网络工具进行以下操作）</em></p>
+<p>方法一：使用<code>winget</code>进行安装</p>
+<p>Windows一直缺乏一个完善的官方包管理系统，微软商店也因为一些众所周知的原因不是很好用，不过2020年微软推出了<code>winget</code>，也算是填补了这一点</p>
 <p>使用Power Shell 运行以下命令安装Oh My Posh</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>winget install JanDeDobbeleer.OhMyPosh -s winget
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>winget install JanDeDobbeleer.OhMyPosh -s winget
 </span></span></code></pre></div><p>方法二：进入微软商店搜索On My Posh进行下载</p>
 <p>然后下载作者推荐的<a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip" target="_blank">MesloLGM NF字体</a>，下载后解压，全选右键点击安装即可自动安装</p>
 <h3 id="进行配置">进行配置<a class="anchorjs-link" href="#%e8%bf%9b%e8%a1%8c%e9%85%8d%e7%bd%ae"></a></h3><p>在Terminal中按<code>ctrl + ,</code>打开配置文件，点击左下角打开JSON文件，找到<code>profiles-defaults</code>，修改为如下代码：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#f1fa8c">&#34;defaults&#34;</span>: {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>            <span style="color:#ff79c6">&#34;colorScheme&#34;</span>: <span style="color:#f1fa8c">&#34;Campbell&#34;</span>, <span style="color:#6272a4">//颜色方案
-</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#6272a4"></span>            <span style="color:#ff79c6">&#34;font&#34;</span>: {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>                <span style="color:#ff79c6">&#34;face&#34;</span>: <span style="color:#f1fa8c">&#34;MesloLGM NF&#34;</span> <span style="color:#6272a4">//字体
-</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span><span style="color:#6272a4"></span>            },
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>            <span style="color:#ff79c6">&#34;opacity&#34;</span>: <span style="color:#bd93f9">100</span> <span style="color:#6272a4">//不透明度
-</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#6272a4"></span>        },
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#f1fa8c">&#34;defaults&#34;</span>: {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>            <span style="color:#ff79c6">&#34;colorScheme&#34;</span>: <span style="color:#f1fa8c">&#34;Campbell&#34;</span>, <span style="color:#6272a4">//颜色方案
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span><span style="color:#6272a4"></span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>            <span style="color:#ff79c6">&#34;font&#34;</span>: {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>                <span style="color:#ff79c6">&#34;face&#34;</span>: <span style="color:#f1fa8c">&#34;MesloLGM NF&#34;</span> <span style="color:#6272a4">//字体
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span><span style="color:#6272a4"></span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>            },
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>            <span style="color:#ff79c6">&#34;opacity&#34;</span>: <span style="color:#bd93f9">100</span> <span style="color:#6272a4">//不透明度
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span><span style="color:#6272a4"></span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>        },
 </span></span></code></pre></div><p>新建Terminal，输入<code>notepad $profile</code>使用笔记本打开配置文件，输入以下配置信息，并保存</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span> [System.Console]::OutputEncoding=[System.Text.Encoding]::GetEncoding(65001) # 配置默认编码
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span> oh-my-posh init pwsh --config &#34;$env:POSH_THEMES_PATH\material.omp.json&#34; | Invoke-Expression # 配置oh-my-posh的theme
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span> [System.Console]::OutputEncoding=[System.Text.Encoding]::GetEncoding(65001) # 配置默认编码
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span> oh-my-posh init pwsh --config &#34;$env:POSH_THEMES_PATH\material.omp.json&#34; | Invoke-Expression # 配置oh-my-posh的theme
 </span></span></code></pre></div><p>完成后新建Terminal即可看到焕然一新的终端</p>
-<h3 id="修改主题">修改主题<a class="anchorjs-link" href="#%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98"></a></h3><p>在<a href="https://ohmyposh.dev/" target="_blank">On My Posh</a>官网查看主题介绍，找到自己喜欢的主题<code>yyy</code><br>
-输入<code>notepad $profile</code>使用笔记本打开配置文件，将<code>xxx.omp.json</code>替换为<code>yyy.omp.json</code>，打开一个新终端即可看到新主题</p>
-<h2 id="可能遇到的问题">可能遇到的问题<a class="anchorjs-link" href="#%e5%8f%af%e8%83%bd%e9%81%87%e5%88%b0%e7%9a%84%e9%97%ae%e9%a2%98"></a></h2><h3 id="配置vscode中的终端">配置VSCode中的终端<a class="anchorjs-link" href="#%e9%85%8d%e7%bd%aevscode%e4%b8%ad%e7%9a%84%e7%bb%88%e7%ab%af"></a></h3><p>进入VSCode，按下<code>ctrl + ,</code>打开设置<br>
-找到<code>Features &gt; Terminal › Integrated › Default Profile: Windows</code>设置，设置为<code>Power Shell</code><br>
-重启VSCode后新建终端查看效果</p>
-<h3 id="无法显示conda环境">无法显示conda环境<a class="anchorjs-link" href="#%e6%97%a0%e6%b3%95%e6%98%be%e7%a4%baconda%e7%8e%af%e5%a2%83"></a></h3><p>这个问题是因为主题文件中<code>segments</code>中<code>type</code>为<code>python</code>部分没有配置或默认配置为<code>false</code><br>
-手动修改为自己喜欢的样式即可，可参考<a href="https://stackoverflow.com/questions/75718484/how-can-i-see-conda-env-in-oh-my-posh-theme-in-powershell" target="_blank">这个帖子</a>，评论区也给出了相关的官方文档</p>
+<h3 id="修改主题">修改主题<a class="anchorjs-link" href="#%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98"></a></h3><p>在<a href="https://ohmyposh.dev/" target="_blank">On My Posh</a>官网查看主题介绍，找到自己喜欢的主题<code>yyy</code></p>
+<p>输入<code>notepad $profile</code>使用笔记本打开配置文件，将<code>xxx.omp.json</code>替换为<code>yyy.omp.json</code>，打开一个新终端即可看到新主题</p>
+<h2 id="可能遇到的问题">可能遇到的问题<a class="anchorjs-link" href="#%e5%8f%af%e8%83%bd%e9%81%87%e5%88%b0%e7%9a%84%e9%97%ae%e9%a2%98"></a></h2><h3 id="配置vscode中的终端">配置VSCode中的终端<a class="anchorjs-link" href="#%e9%85%8d%e7%bd%aevscode%e4%b8%ad%e7%9a%84%e7%bb%88%e7%ab%af"></a></h3><p>进入VSCode，按下<code>ctrl + ,</code>打开设置</p>
+<p>找到<code>Features &gt; Terminal › Integrated › Default Profile: Windows</code>设置，设置为<code>Power Shell</code></p>
+<p>重启VSCode后新建终端查看效果</p>
+<h3 id="无法显示conda环境">无法显示conda环境<a class="anchorjs-link" href="#%e6%97%a0%e6%b3%95%e6%98%be%e7%a4%baconda%e7%8e%af%e5%a2%83"></a></h3><p>这个问题是因为主题文件中<code>segments</code>中<code>type</code>为<code>python</code>部分没有配置或默认配置为<code>false</code></p>
+<p>手动修改为自己喜欢的样式即可，可参考<a href="https://stackoverflow.com/questions/75718484/how-can-i-see-conda-env-in-oh-my-posh-theme-in-powershell" target="_blank">这个帖子</a>，评论区也给出了相关的官方文档</p>
 <p>可参考：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>	<span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;python&#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>	<span style="color:#ff79c6">&#34;style&#34;</span>: <span style="color:#f1fa8c">&#34;plain&#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>	<span style="color:#ff79c6">&#34;foreground&#34;</span>: <span style="color:#f1fa8c">&#34;#98C379&#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>	<span style="color:#ff79c6">&#34;properties&#34;</span>: {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>		<span style="color:#ff79c6">&#34;display_virtual_env&#34;</span>: <span style="color:#ff79c6">true</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>		<span style="color:#ff79c6">&#34;dispplay_default&#34;</span>: <span style="color:#ff79c6">true</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>		<span style="color:#ff79c6">&#34;display_version&#34;</span>: <span style="color:#ff79c6">false</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>		<span style="color:#ff79c6">&#34;prefix&#34;</span>: <span style="color:#f1fa8c">&#34;\uE235 &#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>		<span style="color:#ff79c6">&#34;postfix&#34;</span>: <span style="color:#f1fa8c">&#34; &#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>		<span style="color:#ff79c6">&#34;display_mode&#34;</span>: <span style="color:#f1fa8c">&#34;always&#34;</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>	}
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>{
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>	<span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;python&#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>	<span style="color:#ff79c6">&#34;style&#34;</span>: <span style="color:#f1fa8c">&#34;plain&#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>	<span style="color:#ff79c6">&#34;foreground&#34;</span>: <span style="color:#f1fa8c">&#34;#98C379&#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>	<span style="color:#ff79c6">&#34;properties&#34;</span>: {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>		<span style="color:#ff79c6">&#34;display_virtual_env&#34;</span>: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>		<span style="color:#ff79c6">&#34;dispplay_default&#34;</span>: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span>		<span style="color:#ff79c6">&#34;display_version&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span><span>		<span style="color:#ff79c6">&#34;prefix&#34;</span>: <span style="color:#f1fa8c">&#34;\uE235 &#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span><span>		<span style="color:#ff79c6">&#34;postfix&#34;</span>: <span style="color:#f1fa8c">&#34; &#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span><span>		<span style="color:#ff79c6">&#34;display_mode&#34;</span>: <span style="color:#f1fa8c">&#34;always&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span><span>	}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26</span><span>}
 </span></span></code></pre></div><p>或：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>          <span style="color:#ff79c6">&#34;foreground&#34;</span>: <span style="color:#f1fa8c">&#34;yellow&#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>          <span style="color:#ff79c6">&#34;properties&#34;</span>: {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>            <span style="color:#ff79c6">&#34;fetch_version&#34;</span>: <span style="color:#ff79c6">true</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>            <span style="color:#ff79c6">&#34;fetch_virtual_env&#34;</span>: <span style="color:#ff79c6">true</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>            <span style="color:#ff79c6">&#34;display_mode&#34;</span>: <span style="color:#f1fa8c">&#34;files&#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>            <span style="color:#ff79c6">&#34;home_enabled&#34;</span>: <span style="color:#ff79c6">true</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>            <span style="color:#ff79c6">&#34;display_default&#34;</span>: <span style="color:#ff79c6">true</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>          },
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>          <span style="color:#ff79c6">&#34;style&#34;</span>: <span style="color:#f1fa8c">&#34;plain&#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>          <span style="color:#ff79c6">&#34;template&#34;</span>: <span style="color:#f1fa8c">&#34;[\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }}{{ end }}{{ .Full }}{{ end }}]&#34;</span>,
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>          <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;python&#34;</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>        }
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>{
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>          <span style="color:#ff79c6">&#34;foreground&#34;</span>: <span style="color:#f1fa8c">&#34;yellow&#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>          <span style="color:#ff79c6">&#34;properties&#34;</span>: {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>            <span style="color:#ff79c6">&#34;fetch_version&#34;</span>: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>            <span style="color:#ff79c6">&#34;fetch_virtual_env&#34;</span>: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>            <span style="color:#ff79c6">&#34;display_mode&#34;</span>: <span style="color:#f1fa8c">&#34;files&#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>            <span style="color:#ff79c6">&#34;home_enabled&#34;</span>: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span>            <span style="color:#ff79c6">&#34;display_default&#34;</span>: <span style="color:#ff79c6">true</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span><span>          },
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span><span>          <span style="color:#ff79c6">&#34;style&#34;</span>: <span style="color:#f1fa8c">&#34;plain&#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span><span>          <span style="color:#ff79c6">&#34;template&#34;</span>: <span style="color:#f1fa8c">&#34;[\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }}{{ end }}{{ .Full }}{{ end }}]&#34;</span>,
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span><span>          <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;python&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26</span><span>        }
 </span></span></code></pre></div><h2 id="总结">总结<a class="anchorjs-link" href="#%e6%80%bb%e7%bb%93"></a></h2><p>On My Posh可自定义范围非常广，如果你有时间，完全可以将终端设置成自己想要的样子，但一般情况下主题也就够用了</p>
 
 
@@ -262,7 +298,7 @@ Windows一直缺乏一个完善的官方包管理系统，微软商店也因为�
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/1.%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7/" data-toggle="tooltip" data-placement="top" title="如何在一台电脑上使用两个Github账号">
+            <a href="/posts/%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7/" data-toggle="tooltip" data-placement="top" title="如何在一台电脑上使用两个Github账号">
               Previous<br>
               <span>如何在一台电脑上使用两个Github账号</span>
             </a>
@@ -310,17 +346,13 @@ Windows一直缺乏一个完善的官方包管理系统，微软商店也因为�
     
     <a href="/tags/algorithm/">Algorithm</a>
     
-    <a href="/tags/concurrent/">Concurrent</a>
-    
     <a href="/tags/git/">Git</a>
     
-    <a href="/tags/java/">Java</a>
+    <a href="/tags/microsoft/">MicroSoft</a>
     
     <a href="/tags/pc/">PC</a>
     
     <a href="/tags/software/">SoftWare</a>
-    
-    <a href="/tags/ssh/">SSH</a>
     
     <a href="/tags/windows/">Windows</a>
     
@@ -404,6 +436,8 @@ Windows一直缺乏一个完善的官方包管理系统，微软商店也因为�
 
 
 <script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
 
 
 
