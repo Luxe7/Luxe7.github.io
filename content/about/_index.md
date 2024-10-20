@@ -12,6 +12,3 @@ Hi there! 👋 I'm Luxe7 😉
 - Love Open Source 🌼 & knowledge sharing 🤝
 ### Blog
 Micro narrative and knowledge sharing
-### Footprints
-*(Please Sure you can connect Google Map)*
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gwUI_llSr1j03UKbVBiGDmvx3EZXJLo&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c4c6b05c6aced4f1",
+        "id": "567c64c6ef5cc38f",
         "type": "tabs",
         "children": [
           {
-            "id": "7d9bca82c639bc72",
+            "id": "5b0e08d7a12a8fd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/当我想要在Windows平板上阅读漫画时.md",
+                "file": "content/about/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/当我想要在Windows平板上阅读漫画时.md",
+                "file": "content/about/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/当我想要在Windows平板上阅读漫画时.md",
+                "file": "content/about/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/当我想要在Windows平板上阅读漫画时.md"
+                "file": "content/about/_index.md"
               }
             }
           }
@@ -188,7 +188,7 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "7d9bca82c639bc72",
+  "active": "5b0e08d7a12a8fd6",
   "lastOpenFiles": [
     "Home.md",
     "content/posts/PC微信读书最佳实践.md",
