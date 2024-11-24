@@ -11,16 +11,16 @@
     <atom:link href="https://luxe7.icu/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当我想要在 Windows 平板上阅读漫画时</title>
-      <link>https://luxe7.icu/posts/%E5%BD%93%E6%88%91%E6%83%B3%E8%A6%81%E5%9C%A8windows%E5%B9%B3%E6%9D%BF%E4%B8%8A%E9%98%85%E8%AF%BB%E6%BC%AB%E7%94%BB%E6%97%B6/</link>
+      <link>https://luxe7.icu/posts/%E5%BD%93%E6%88%91%E6%83%B3%E8%A6%81%E5%9C%A8-windows-%E5%B9%B3%E6%9D%BF%E4%B8%8A%E9%98%85%E8%AF%BB%E6%BC%AB%E7%94%BB%E6%97%B6/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://luxe7.icu/posts/%E5%BD%93%E6%88%91%E6%83%B3%E8%A6%81%E5%9C%A8windows%E5%B9%B3%E6%9D%BF%E4%B8%8A%E9%98%85%E8%AF%BB%E6%BC%AB%E7%94%BB%E6%97%B6/</guid>
+      <guid>https://luxe7.icu/posts/%E5%BD%93%E6%88%91%E6%83%B3%E8%A6%81%E5%9C%A8-windows-%E5%B9%B3%E6%9D%BF%E4%B8%8A%E9%98%85%E8%AF%BB%E6%BC%AB%E7%94%BB%E6%97%B6/</guid>
       <description>被物欲控制这个时代，到处都是广告，可能是街头巷尾的海量宣传，也可能是隐藏在各大社交平台的隐形广告 之前有一段时间，老是给我推送电纸书的视频，也</description>
     </item>
     <item>
       <title>使用 On My Posh 美化 Terminal</title>
-      <link>https://luxe7.icu/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <link>https://luxe7.icu/posts/on-my-posh-%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://luxe7.icu/posts/on-my-posh%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://luxe7.icu/posts/on-my-posh-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
       <description>本文基于Windows 11 Professional 22H2，低于这个版本的Windows可能需要对Terminal进行额外的更新操作 前言在用Helix的时候，突然感</description>
     </item>
   </channel>

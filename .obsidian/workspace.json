@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "567c64c6ef5cc38f",
+        "id": "b7f74f665c6d8e3d",
         "type": "tabs",
         "children": [
           {
-            "id": "5b0e08d7a12a8fd6",
+            "id": "2f569e53e9447d14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about/_index.md",
+                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about/_index.md",
+                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about/_index.md",
+                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/about/_index.md"
+                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md"
               }
             }
           }
@@ -177,26 +177,26 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
-      "workspaces:管理工作区布局": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "open-weather:OpenWeather": false
     }
   },
-  "active": "5b0e08d7a12a8fd6",
+  "active": "2f569e53e9447d14",
   "lastOpenFiles": [
     "Home.md",
-    "content/posts/PC微信读书最佳实践.md",
-    "content/posts/On My Posh的使用.md",
-    "content/posts/宣告---献给遇罗克.md",
     "content/posts/如何在一台电脑上使用两个Github账号.md",
+    "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
+    "content/posts/On My Posh 的使用.md",
+    "content/posts/PC微信读书最佳实践.md",
     "content/posts/前缀和.md",
-    "content/posts/当我想要在Windows平板上阅读漫画时.md",
+    "content/posts/宣告---献给遇罗克.md",
     "public/tags/microsoft/index.xml",
     "public/tags/microsoft/index.html",
     "public/tags/microsoft",
