@@ -1,3 +1,4 @@
+rmdir /s /q public
 hugo
 git add .
 git commit -am "update"
