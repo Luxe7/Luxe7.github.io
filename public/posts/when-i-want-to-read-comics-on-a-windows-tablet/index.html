@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    
+  <title>当我想要在 Windows 平板上阅读漫画时 | Luxe7&#39;s Blog</title>
+  <meta name="author" content="Luxe7">
+  <meta name="description" content="在 Surface 上折腾本地漫画阅读">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="当我想要在 Windows 平板上阅读漫画时"/>
+<meta name="twitter:description" content="在 Surface 上折腾本地漫画阅读"/>
+
+  <meta property="og:title" content="当我想要在 Windows 平板上阅读漫画时" />
+<meta property="og:description" content="在 Surface 上折腾本地漫画阅读" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://luxe7.icu/posts/when-i-want-to-read-comics-on-a-windows-tablet/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-10-20T00:00:00+00:00" />
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="/sass/main.css">
+
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+
+</head>
+
+
+
+<body ontouchstart="">
+  
+  
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://luxe7.icu/">Luxe7&#39;s Blog</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/series/" title="Series">Series</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('');
+  }
+</style>
+
+<header class="intro-header style-text">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+            <a class="tag" href="/tags/windows/" title="Windows">Windows</a>
+            
+            <a class="tag" href="/tags/microsoft/" title="MicroSoft">MicroSoft</a>
+            
+          </div>
+          <h1>当我想要在 Windows 平板上阅读漫画时</h1>
+          <h2 class="subheading"></h2>
+          <span class="meta">
+            Posted by  Luxe7 
+            on Sun, Oct 20, 2024
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <h2 id="被物欲控制">被物欲控制<a class="anchorjs-link" href="#%e8%a2%ab%e7%89%a9%e6%ac%b2%e6%8e%a7%e5%88%b6"></a></h2><p>这个时代，到处都是广告，可能是街头巷尾的海量宣传，也可能是隐藏在各大社交平台的隐形广告</p>
+<p>之前有一段时间，老是给我推送电纸书的视频，也是看了很久，了解了很多，关于墨水屏的技术；各大国产厂商文石，掌阅的产品，也了解了一些海外厂商，亚马逊的 Kindle，kobo 等等</p>
+<p>我个人的需求大概是既可以使用微信读书，也可以看我本地下载的漫画，所以想要一台8寸左右的电纸书</p>
+<p>这个时候，我又刷到了很多 IPad 的视频，我又觉得平板确实是电纸书的上位替代，因为它的功能是电纸书的超集（除了护眼），而且我可能真的需要尝试一下无纸化学习（真的吗），于是我又了解了很多 IPad 产品线的信息，差点就下单 IPad Pro 了</p>
+<p>有一天晚上躺在床上想起《搏击俱乐部》，“胡适之啊胡适之！你怎么能如此堕落！“，于是下定决心克制物欲，遂放弃购买新的电子产品，尽量减少花在社交平台上的时间，远离诱惑，这时候想起有一台闲置的 Surface 平板，于是开始折腾</p>
+<h2 id="开始折腾">开始折腾<a class="anchorjs-link" href="#%e5%bc%80%e5%a7%8b%e6%8a%98%e8%85%be"></a></h2><p>关于 PC 端的微信阅读，我之前已经解决了，感兴趣可以阅读<a href="/posts/pc%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" target="_blank">这篇博客</a></p>
+<p>所以主要需要解决的问题是如何在 PC 端阅读漫画</p>
+<h3 id="yacreader">YACReader<a class="anchorjs-link" href="#yacreader"></a></h3><p>YACReader 是一个开源的多平台本地漫画阅读器，我先是在 PC 上安装了这个软件，一开始是非常开心的，因为基本上满足我的所有阅读需求，而且非常流畅，但是当我将它放在 Surface 上开始全屏阅读时，发现它并不能支持触屏，这让我很意外</p>
+<p>我一开始的解决思路是，设置快捷键，看能不能设置音量键翻页或者映射触屏，音量键翻页手感不佳且会唤出音量修改界面，至于映射触屏好像无法做到</p>
+<p>于是开始寻找解决方案，幸运的是 YACReader 官网有一个讨论论坛，不幸的是，我发现早在将近八年前就反馈了<a href="https://www.yacreader.com/forum/support-windows/998-windows-10-touch-version-please" target="_blank">这个问题</a>，而且这个帖子的互动也暴露了开源社区常见的问题：开源开发者的时间有限，为爱发电实属不易</p>
+<p>这个帖子的评论区有使用者给出了解决办法，比如设置简单的操作逻辑，也有人给出了微软触屏组件的 API，但是</p>
+<blockquote>
+<p>开发者表示：&ldquo;It is an open source project, why don&rsquo;t you add touch support yourself? It is a task fairly easy to do.&rdquo;<br>
+有使用者表示：&ldquo;If it&rsquo;s a such an easy task why does the original developer not add it himself&hellip;&hellip;&rdquo;<br>
+开发者比较强硬地回应：&ldquo;I am the developer. YACReader is a side project, it is free and my time is limited, that&rsquo;s why some times I can&rsquo;t tackle some tasks/features. This is a thing that it is in my TODO list so IT IS going to happen&hellip;  Again, I don&rsquo;t see a reason for not doing it yourself and open a PR, damn, it is even hacktoberfest season, you could get a tshirt and all.&rdquo;</p>
+</blockquote>
+<p>说实话，这两方的意见都没有错误，我都可以理解</p>
+<p>随后，我又在 Windows 板块下看到了一个一周前发送的帖子，<a href="https://www.yacreader.com/forum/support-windows/2624-how-to-change-page-using-a-touchscreen" target="_blank">How to change page using a touchscreen</a>，也就是说这个问题其实已经持续了至少七年半，同时也看得出来用 Windows 平板的群体很小，用它来看漫画的人就更少了</p>
+<p>如果我擅长 CPP 开发，真的就打算自己做这个功能了，可惜我并不擅长，遂尝试选择其他应用</p>
+<h3 id="该死的微软商店">该死的微软商店<a class="anchorjs-link" href="#%e8%af%a5%e6%ad%bb%e7%9a%84%e5%be%ae%e8%bd%af%e5%95%86%e5%ba%97"></a></h3><p>我查询资料发现，微软商店上有一些评价比较好的本地漫画阅读器，比如 cover，漫画阅读器 UWP 等等，遂尝试</p>
+<p>但是我的两台 Windows 设备都禁止了检查更新，同时也禁止了一些微软组件联网，这也导致我没有办法正常使用微软商店，遂尝试侧载</p>
+<p>侧载的大概思路是，下载对应的 Msixbundle 或 AppxBundle 文件直接安装，拿到软件的商店链接后可以去<a href="https://link.zhihu.com/?target=https%3A//store.rg-adguard.net/" target="_blank">这里</a>使用，同时我也找到了一些开发者封装好的下载和管理软件，这里不再展开</p>
+<p>成功侧载安装后，也许是因为我禁用了网络，软件卡在启动页，一段时间后自己关闭，猜测是需要借用微软商店的组件验证等，具体原因不明，遂放弃</p>
+<h3 id="图片阅读器">图片阅读器<a class="anchorjs-link" href="#%e5%9b%be%e7%89%87%e9%98%85%e8%af%bb%e5%99%a8"></a></h3><p>我之前其实没有阅读电子漫画的习惯，看到有人推荐说，下载漫画最优选是选择图片格式，那我就想，为什么不可以直接使用图片阅读器呢？</p>
+<p>于是选择以轻量化著称的 BandiView，在 Surface 上试用了一下，可以通过触屏切换下一页，并且可以记录上次阅读的位置，基本满足需求，圆满解决</p>
+<h2 id="题外话漫画安利">题外话：漫画安利<a class="anchorjs-link" href="#%e9%a2%98%e5%a4%96%e8%af%9d%e6%bc%ab%e7%94%bb%e5%ae%89%e5%88%a9"></a></h2><p>《剑风传奇》，从1989年开始连载，作者已经过世，也许是我看过最黑暗，深刻，残忍的作品，一开始是被 Kentaro Miura 的伟大画工震撼，随后被整个作品俄狄浦斯式的悲剧所吸引，主角的超人意志力让我想到《战锤40K》的帝国之拳原体 Rogal Dorn</p>
+<p>《浪客行》，从1998开始连载，作者井上雄彦（对，也是灌篮高手的作者）讲一个武士的故事，我个人曾经看过几部有名的剑戟片，但是要提到武士，我首先想到的还是这部漫画</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/posts/prefix-sum/" data-toggle="tooltip" data-placement="top" title="Algorithm | 前缀和">
+              Previous<br>
+              <span>Algorithm | 前缀和</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+
+
+
+      </div>
+
+      
+      
+      
+      <div class="
+              col-lg-2 col-lg-offset-0
+              visible-lg-block
+              sidebar-container
+              catalog-container">
+        <div class="side-catalog">
+          <hr class="hidden-sm hidden-xs">
+          <h5>
+            <a class="catalog-toggle" href="#">CATALOG</a>
+          </h5>
+          <ul class="catalog-body"></ul>
+        </div>
+      </div>
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/algorithm/">Algorithm</a>
+    
+    <a href="/tags/git/">Git</a>
+    
+    <a href="/tags/microsoft/">MicroSoft</a>
+    
+    <a href="/tags/pc/">PC</a>
+    
+    <a href="/tags/software/">SoftWare</a>
+    
+    <a href="/tags/windows/">Windows</a>
+    
+  </div>
+</section>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <ul class="list-inline text-center">
+
+<li>
+  <a href="https://github.com/Luxe7" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+<li>
+  <a href="mailto:Luxe7@foxmail.com">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li>
+
+
+<li>
+  <a href="/index.xml" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+</li></ul>
+
+        <p class="copyright text-muted">
+          
+          <span id="busuanzi_container_site_pv">
+            Total Visits:<span id="busuanzi_value_site_pv"></span>
+          </span>
+          &ensp;
+          <span id="busuanzi_container_site_uv">
+            Number of visitors:<span id="busuanzi_value_site_uv"></span>
+          </span><br>
+          ©2021-2024 Luxe7. All Rights Reserved.
+          <br>
+          Powered by <a href="https://gohugo.io">Hugo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.73a6a8d8df45293e042d15867416f603045bbeb98406731e5022d6c60388cd9d.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+  function generateCatalog(selector) {
+    _containerSelector = 'div.post-container'
+    
+    var P = $(_containerSelector), a, n, t, l, i, c;
+    a = P.find('h1,h2,h3,h4');
+    
+    $(selector).html('')
+    
+    a.each(function () {
+      n = $(this).prop('tagName').toLowerCase();
+      i = "#" + $(this).prop('id');
+      t = $(this).text();
+      c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+      l = $('<li class="' + n + '_nav"></li>').append(c);
+      $(selector).append(l);
+    });
+    return true;
+  }
+
+  generateCatalog(".catalog-body");
+
+  
+  $(".catalog-toggle").click((function (e) {
+    e.preventDefault();
+    $('.side-catalog').toggleClass("fold")
+  }))
+</script>
+
+
+<script type="text/javascript" src='/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js'></script>
+<script>
+  $(document).ready(function () {
+    $('.catalog-body').onePageNav({
+      currentClass: "active",
+      changeHash: !1,
+      easing: "swing",
+      filter: "",
+      scrollSpeed: 700,
+      scrollOffset: 0,
+      scrollThreshold: .2,
+      begin: null,
+      end: null,
+      scrollChange: null,
+      padding: 80
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+</body>
+
+</html>
