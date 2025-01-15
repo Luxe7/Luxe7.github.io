@@ -1,4 +1,4 @@
-rmdir /s /q public
+Remove-Item -Path ".\public" -Force -Recurse
 hugo
 git add .
 git commit -am "update"
