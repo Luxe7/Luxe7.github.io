@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b7f74f665c6d8e3d",
+        "id": "78953581678f8a50",
         "type": "tabs",
         "children": [
           {
-            "id": "2f569e53e9447d14",
+            "id": "adca04bb482adaae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
+                "file": "content/posts/How-to-use-two-Github-accounts-on-one-computer.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
+                "file": "content/posts/How-to-use-two-Github-accounts-on-one-computer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
+                "file": "content/posts/How-to-use-two-Github-accounts-on-one-computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/当我想要在 Windows 平板上阅读漫画时.md"
+                "file": "content/posts/How-to-use-two-Github-accounts-on-one-computer.md"
               }
             }
           }
@@ -188,15 +188,16 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "2f569e53e9447d14",
+  "active": "adca04bb482adaae",
   "lastOpenFiles": [
-    "Home.md",
-    "content/posts/如何在一台电脑上使用两个Github账号.md",
-    "content/posts/当我想要在 Windows 平板上阅读漫画时.md",
-    "content/posts/On My Posh 的使用.md",
-    "content/posts/PC微信读书最佳实践.md",
-    "content/posts/前缀和.md",
+    "content/posts/When-I-want-to-read-comics-on-a-Windows-tablet.md",
+    "content/posts/Prefix-sum.md",
+    "content/posts/How-to-use-two-Github-accounts-on-one-computer.md",
     "content/posts/宣告---献给遇罗克.md",
+    "content/posts/The-usage-of-On-My-Posh.md",
+    "content/posts/The-best-practices-of-WeChat-Reading-on-PC.md",
+    "content/posts/_index.md",
+    "Home.md",
     "public/tags/microsoft/index.xml",
     "public/tags/microsoft/index.html",
     "public/tags/microsoft",
@@ -218,7 +219,6 @@
     "content/series/Algorithm/_index.md",
     "content/archive/_index.md",
     "content/about/_index.md",
-    "content/posts/_index.md",
     "在.md",
     "themes/puppet/exampleSite/content/series/themes-guide/_index.md",
     "Draft/那些CS中的离谱中文翻译.md",

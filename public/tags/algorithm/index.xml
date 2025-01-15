@@ -11,10 +11,10 @@
     <atom:link href="https://luxe7.icu/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algorithm | 前缀和</title>
-      <link>https://luxe7.icu/posts/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+      <link>https://luxe7.icu/posts/prefix-sum/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://luxe7.icu/posts/%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
-      <description>一维前缀和对于数组 a，定义它的前缀和数组 s 为: 1 2s[0] = 0 3 4s[1] = a[0] + a[1] 5 6s[2] = a[0] + a[1] + a[2] 7 8...... 根据这个定义，有 1 2s[i+1] = s[i] + a[i] 通过前缀和，我们可以把连续</description>
+      <guid>https://luxe7.icu/posts/prefix-sum/</guid>
+      <description>一维前缀和 对于数组 a，定义它的前缀和数组 s 为: 1 2s[0] = 0 3 4s[1] = a[0] + a[1] 5 6s[2] = a[0] + a[1] + a[2] 7 8...... 根据这个定义，有 1 2s[i+1] = s[i] + a[i] 通过前缀和，我们可以把连续</description>
     </item>
   </channel>
 </rss>

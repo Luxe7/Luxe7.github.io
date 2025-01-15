@@ -1,21 +1,13 @@
 ---
-
-title: 使用 On My Posh 美化 Terminal
-
+title: On My Posh 的使用
 date: 2024-03-02
-
 description: 如何将黑黑的或蓝蓝的 Terminal 变为自己喜欢的样子
-
 header_img: 
-
 short: 
-
 math: 
-
 tags:
   - Windows
   - SoftWare
-
 ---
 >本文基于Windows 11 Professional 22H2，低于这个版本的Windows可能需要对Terminal进行额外的更新操作
 
